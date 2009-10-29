@@ -1,0 +1,32 @@
+---
+abstract: 'PostgreSQL ACL parser and iterator'
+author:
+  - 'David E. Wheeler <david@justatheory.com>'
+build_requires:
+  Module::Build: 0.30
+  Test::MockModule: 0.05
+  Test::More: 0.88
+configure_requires:
+  Module::Build: 0.30
+generated_by: 'Module::Build version 0.3504'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Pg-Priv
+provides:
+  Pg::Priv:
+    file: lib/Pg/Priv.pm
+    version: 0.10
+recommends:
+  Test::Pod: 1.20
+  Test::Pod::Coverage: 1.06
+requires:
+  DBI: 1.605
+  perl: 5.006002
+resources:
+  bugtracker: http://github.com/theory/pg-priv/issues/
+  homepage: http://search.cpan.org/dist/Pg-Priv/
+  license: http://dev.perl.org/licenses/
+  repository: http://github.com/theory/pg-priv/tree/
+version: 0.10
