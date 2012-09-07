@@ -11,14 +11,12 @@ Module::Build->new(
     build_requires     => {
         'Module::Build'    => '0.30',
         'Test::More'       => '0.88',
-        'Test::MockModule' => '0.05',
     },
     requires           => {
-        'DBI'               => '1.605',
         'perl'              => 5.006002,
     },
     recommends         => {
-        'Test::Pod'           => '1.20',
+        'Test::Pod'           => '1.41',
         'Test::Pod::Coverage' => '1.06',
     },
     meta_merge         => {
