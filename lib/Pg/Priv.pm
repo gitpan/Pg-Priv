@@ -1,10 +1,10 @@
 package Pg::Priv;
 
-use 5.6.2;
+use 5.8.0;
 use strict;
 use warnings;
 
-our $VERSION = '0.11';
+our $VERSION = '0.12';
 
 my %label_for = (
     r => 'SELECT',
